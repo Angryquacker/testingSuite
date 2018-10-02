@@ -1,9 +1,6 @@
 from colorama import init, Fore
 init()
 
-print("""       TJ's Testing Suite
-----------------------------------\n""")
-
 def returnCheck(testFunc, wantedOutput):
     result = testFunc()
     if result == wantedOutput:
